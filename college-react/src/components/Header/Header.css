@@ -1,0 +1,56 @@
+.header {
+  background-color: #002978 !important;
+  height: 9em;
+  padding: 1em;
+  color: white !important;
+}
+
+.header-text-h4 {
+  font-size: 1.8rem;
+  font-family: "qlassik_boldregular";
+}
+
+.header-text-h2 {
+  font-size: 3.2rem;
+  font-family: "qlassik_boldregular";
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .header-text-h2 {
+    font-size: 3.2rem;
+  }
+  .header-text-h4 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-text-h2 {
+    font-size: 2.4rem;
+  }
+  .header-text-h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 767px) {
+  .header-text-h2 {
+    font-size: 1.2rem;
+  }
+  .header-text-h4 {
+    font-size: 0.6rem;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+  .header-text-h2 {
+    font-size: 0.8rem;
+  }
+  .header-text-h4 {
+    font-size: 0.4rem;
+  }
+}
